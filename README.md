@@ -21,9 +21,9 @@ This application was developed as a final project for the **ICT Laboratory** (BS
 - **Design Standard:** Premium Vibe Coding (Minimalist/Enterprise)
 
 ## 👥 The Team
-- **Shabir Ahmad** (Lead Developer & UI Architect)
-- **Abdul Basit** (Core Developer)
-- **Abdul Jabbar** (Documentation & Research)
+- **Shabir Ahmad** 
+- **Abdul Basit** 
+- **Abdul Jabbar** 
 
 ---
 
