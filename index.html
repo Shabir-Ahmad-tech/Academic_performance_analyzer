@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Analyzer — ICT Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Grade Analyzer</h1>
+            <p class="project-title">First Semester Final Project</p>
+            <p class="university">University of Engineering & Applied Sciences Swat</p>
+        </header>
+
+        <div class="main-card">
+            <div class="input-section">
+                <h3>Enter Marks (Out of 100)</h3>
+                <div class="input-grid">
+                    <div class="input-box">
+                        <label>ICT</label>
+                        <input type="number" id="ict" placeholder="0-100">
+                    </div>
+                    <div class="input-box">
+                        <label>Programming</label>
+                        <input type="number" id="prog" placeholder="0-100">
+                    </div>
+                    <div class="input-box">
+                        <label>Maths</label>
+                        <input type="number" id="math" placeholder="0-100">
+                    </div>
+                    <div class="input-box">
+                        <label>English</label>
+                        <input type="number" id="eng" placeholder="0-100">
+                    </div>
+                    <div class="input-box">
+                        <label>Pak-study</label>
+                        <input type="number" id="pak" placeholder="0-100">
+                    </div>
+                    <div class="input-box">
+                        <label>Islamyat</label>
+                        <input type="number" id="isl" placeholder="0-100">
+                    </div>
+                    <div class="input-box">
+                        <label>Fahm-e-Quran</label>
+                        <input type="number" id="quran" placeholder="0-100">
+                    </div>
+                </div>
+                <button id="btn" onclick="calculate()">Generate Result</button>
+            </div>
+
+            <div id="result-card" class="result-section" style="display: none;">
+                <div class="divider"></div>
+                <h2>Student Performance</h2>
+                <div class="stats-grid">
+                    <div class="stat">
+                        <span class="label">Total Marks</span>
+                        <span class="val" id="total">0</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">Percentage</span>
+                        <span class="val" id="percent">0%</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">Grade</span>
+                        <span class="val" id="grade">F</span>
+                    </div>
+                </div>
+                <div id="status-box" class="status-box">
+                    PASS
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="team">
+                <span>Shabir Ahmad</span> | 
+                <span>Abdul Basit</span> | 
+                <span>Abdul Jabbar</span>
+            </div>
+            <p class="academic-info">BS-AI First Semester Fall 2025, Section A</p>
+            <p class="reg-nos">FA-25-BS-AI-08 / 17 / 28</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
